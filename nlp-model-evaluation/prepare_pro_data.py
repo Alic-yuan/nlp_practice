@@ -1,10 +1,4 @@
 # -*- coding:utf-8 -*-
-'''
-@Author: yanwii
-@Date: 2018-08-03 13:55:25
-
-准备评估的数据
-'''
 import os
 import pydat
 import sys

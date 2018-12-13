@@ -1,11 +1,4 @@
 # -*- coding:utf-8 -*-
-'''
-@Author: yanwii
-@Date: 2018-08-01 10:14:35
-
-计算f1 score
-'''
-
 import requests
 import json
 import sys
@@ -16,11 +9,6 @@ class F1Score(object):
     def __init__(self):
         self.tag_map = {}
         self.url_map = {
-            # "org_per":"http://54.222.133.167:5001/api/nlp/ner",
-            # "org_per":"http://192.168.31.116:5000/api/nlp/ner",
-            # "S-ORG":"http://192.168.31.116:5000/api/nlp/orgShort"
-            "PRO":"http://127.0.0.1:5000/api/nlp/pro"
-            # "S-ORG":"http://54.222.133.167:5000/api/nlp/orgShort"
         }
 
     def get_tags(self, data, tag, tag_map):
