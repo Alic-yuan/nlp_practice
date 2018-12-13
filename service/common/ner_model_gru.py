@@ -13,7 +13,7 @@ import numpy as np
 
 
 base_Path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-open_model = os.path.join(base_Path, "nlp-service", "resource", "models", "ner_pro", "crf.h5")
+open_model = os.path.join(base_Path, "service", "resource", "models", "ner_pro", "crf.h5")
 
 
 LOGGER = get_logger()
